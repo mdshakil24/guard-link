@@ -1,30 +1,669 @@
-body{
+body {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-family: 'Cabin', sans-serif;
   font-family: 'Montserrat', sans-serif;
+  background-color: #E0F1FF;
 }
+
 html {
   overflow-x: hidden !important;
   scroll-behavior: smooth;
 }
-h1,h2,h3,h4,h5,h6,p{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: 'Montserrat', sans-serif;
   margin: 0;
 }
-input, button, textarea, select {
+
+input,
+button,
+textarea,
+select {
   outline: none;
 }
-a:hover{
+
+a:hover {
   text-decoration: none;
 }
-a,span {
+
+a,
+span {
   display: inline-block;
   text-decoration: none;
 }
-ul,li{
-  margin:0;
-  padding:0;
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
+
+h1 {
+  font-weight: 600;
+  font-size: 70px;
+  color: #1F2A66;
+  text-transform: inherit;
+  line-height: 1.2;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 35px;
+  color: #1F2A66;
+  text-transform: inherit;
+  line-height: 1.4;
+}
+
+p {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  color: #1F2A66;
+  text-transform: inherit;
+}
+
+.gl-similar-btn a {
+  font-family: 'Cabin', sans-serif;
+  background: #FE5D16;
+  font-weight: 500;
+  font-size: 16px;
+  color: #FFFFFF;
+  text-transform: inherit;
+  padding: 15px 25px;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  transition: .3s;
+}
+.gl-similar-btn a svg {
+  margin-left: 8px;
+}
+.gl-similar-btn a:hover {
+  background-color: #1F2A66;
+}
+.gl-similar-btn.change-bg a {
+  background-color: #1F2A66;
+}
+.similar-hero-area {
+  padding-top: 330px;
+  padding-bottom: 400px;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center center !important;
+}
+.similar-hero-area h1 {
+  color: #FFFFFF;
+}
+.similar-hero-area p {
+  font-weight: 500;
+  font-size: 22px;
+  color: #FFFFFF;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 45px;
+}
+
+/*===============================================================*/ 
+/*==========***       START MAIN CSS FROM HERE      ***==========*/
+/*===============================================================*/ 
+
+
+/*=== Start GL Header Area Css ===*/
+.gl-header-area {
+  background-color: transparent;
+  padding: 20px 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.gl-header-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.gl-header-logo a {
+  font-weight: 500;
+  font-size: 22px;
+  color: #FFFFFF;
+  text-transform: inherit;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+}
+.gl-header-logo img {
+  width: 60px;
+  height: auto;
+  margin-right: 8px;
+}
+
+.gl-header-menu>ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.gl-header-menu > ul li {
+  position: relative;
+  margin: 0 20px;
+}
+.gl-header-menu ul li a {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #FAFAFA;
+  text-transform: capitalize;
+  line-height: 1.3;
+  transition: .3s;
+}
+.gl-header-menu ul li a svg {
+  width: 22px;
+  height: auto;
+  margin-top: -5px;
+}
+.gl-header-menu > ul li a:hover {
+  color: #FE5D16;
+}
+.gl-header-menu > ul li a:hover svg path {
+  fill: #FE5D16;
+}
+.gl-header-menu ul li ul {
+  position: absolute;
+  left: 0;
+  bottom: -98px;
+  width: 130px;
+  padding-top: 15px;
+  display: none;
+}
+.gl-header-menu ul li:hover ul {
+  display: block;
+}
+.gl-header-menu ul li ul li {
+  padding: 2px 0;
+  margin: 0;
+}
+.gl-header-right-btn.gl-similar-btn a {
+  font-size: 20px;
+  padding: 10px 20px;
+}
+.gl-header-right-btn.gl-similar-btn a svg {
+  margin-left: 0;
+  margin-right: 2px;
+  margin-top: -2px;
+}
+
+/*=== End GL Header Area Css ===*/
+
+
+/*========================================================*/
+/*=====             START HOME PAGE CSS              =====*/
+/*========================================================*/
+
+
+
+/* start key features area css  */
+.gl-key-features-area {
+  padding: 80px 0;
+}
+.gl-key-features-heading {
+  padding-bottom: 80px;
+}
+.gl-key-features-heading p {
+  font-size: 16px;
+  color: #566096;
+  margin-top: 20px;
+}
+.gl-key-features-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.single-gl-key-features-content {
+  flex: 0 0 20%;
+  padding: 0 10px;
+}
+.single-gl-key-features-icon {
+  background-color: #FE5D16;
+  width: 45px;
+  height: 42px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.single-gl-key-features-icon svg {
+  width: 27px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+.single-gl-key-features-text h6 {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #1F2A66;
+  text-transform: inherit;
+  line-height: 1.5;
+  margin: 15px 0 5px;
+  width: 78%;
+  min-height: 50px;
+}
+.single-gl-key-features-text p {
+  font-size: 16px;
+ color: rgba(0, 0, 0, 0.60);
+}
+/* end key features area css  */
+
+/* start testimonials case studies area css  */
+.gl-testimonials-case-studies-area {
+  padding-bottom: 160px;
+}
+.single-gl-testimonials-case-studies-slider-profile img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+.single-gl-testimonials-case-studies-slider-profile-details {
+  margin-top: 40px;
+  padding-top: 18px;
+  border-top: 1px solid #FE5D16;
+}
+.single-gl-testimonials-case-studies-slider-profile-details h4 {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  color: #1F2A66;
+  text-transform: capitalize;
+  text-align: center;
+  line-height: normal;
+  margin-bottom: 5px;
+}
+.single-gl-testimonials-case-studies-slider-text {
+  background: #1F2A66;
+  border-radius: 15px;
+  color: #FFFFFF;
+  padding: 35px;
+  box-sizing: border-box;
+  width: 95%;
+  margin-left: 5%;
+  margin-top: 100px;
+}
+.custom-carousel-button-position .carousel-control-prev {
+  right: 50px;
+  bottom: 0;
+  top: inherit;
+  left: inherit;
+  width: 45px;
+}
+.custom-carousel-button-position .carousel-control-next {
+  right: 0;
+  bottom: 0;
+  top: inherit;
+  width: 45px;
+}
+
+
+/* end testimonials case studies area css  */
+
+/* start technical specification area css */
+.gl-technical-specification-area {
+  padding: 160px 0;
+}
+.gl-technical-specification-heading h1 {
+  text-align: center;
+  margin-bottom: 70px;
+}
+.single-gl-technical-specification-image img {
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+.single-gl-technical-specification-text {
+  width: 94%;
+}
+.single-gl-technical-specification-text p {
+    margin-top: 15px;
+    margin-bottom: 60px;
+}
+.gl-technical-specification-content .row:nth-child(even) {
+  margin: 80px 0;
+}
+.gl-technical-specification-content .row .col-lg-6:first-child  {
+  padding-right: 20px;
+  }
+.gl-technical-specification-content .row .col-lg-6:last-child  {
+padding-left: 20px;
+}
+.gl-technical-specification-content .gl-similar-btn a svg {
+  margin-left: 60px;
+}
+.gl-technical-specification-content .read-success a svg {
+  margin-left: 8px;
+}
+/* end technical specification area css */
+
+/* start gl benefits area css  */
+
+.gl-benefits-right-image img {
+  width: 100%;
+  height: auto;
+}
+.gl-benefits-left-heading-text p {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  width: 95%;
+}
+.gl-benefits-left-list-item li {
+  font-weight: 500;
+  font-size: 22px;
+  color: #1F2A66;
+  text-transform: inherit;
+  margin-bottom: 15px;
+}
+.gl-benefits-left-list-item li span {
+  color: #FE5D16;
+  margin-right: 20px;
+}
+.gl-benefits-left-btn.gl-similar-btn {
+  margin-top: 120px;
+}
+/* end gl benefits area css  */
+
+/* start gl best opportunities area css  */
+.gl-best-opportunities-area {
+  background-color: #FE5D16;
+  padding: 40px 0;
+}
+.gl-best-opportunities-left-content img {
+  max-width: 280px;
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+.gl-best-opportunities-right-text h3 {
+  color: #FFFFFF;
+}
+.gl-best-opportunities-right-text p {
+  color: #FFFFFF;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+/* end gl best opportunities area css  */
+
+/*========================================================*/
+/*=====             END HOME PAGE CSS              =====*/
+/*========================================================*/
+
+
+/*========================================================*/
+/*=====      START FEATURES & BENEFITS PAGE CSS      =====*/
+/*========================================================*/
+.gl-features-benefits-hero-area {
+  background-image: url('../images/features-benefits/fb-hero.png');
+}
+.benefits-and-features-area {
+  padding: 80px 0 160px;
+}
+/*========================================================*/
+/*=====       END FEATURES & BENEFITS PAGE CSS       =====*/
+/*========================================================*/
+
+/*========================================================*/
+/*=====          START CASE STUDIES PAGE CSS         =====*/
+/*========================================================*/
+.gl-case-studies-hero-area {
+  background-image: url('../images/case-studies/case.png');
+}
+/*========================================================*/
+/*=====           END CASE STUDIES PAGE CSS          =====*/
+/*========================================================*/
+
+/*========================================================*/
+/*=====    START TECHNICAL SPECIFICATION PAGE CSS    =====*/
+/*========================================================*/
+.gl-technical-specification-hero-area {
+  background-image: url('../images/technical/tech.png');
+}
+
+.gl-technical-specification-area.technical-specification-page {
+  padding: 80px 0;
+}
+
+/*========================================================*/
+/*=====     END TECHNICAL SPECIFICATION PAGE CSS     =====*/
+/*========================================================*/
+
+
+
+/*========================================================*/
+/*=====         START PURCHASE PRICE PAGE CSS        =====*/
+/*========================================================*/
+
+.gl-unlocking-benefits-area {
+  padding-bottom: 100px;
+}
+.gl-unlocking-benefits-area .container {
+  max-width: 1450px;
+}
+.single-gl-unlocking-benefits-slider-item {
+  background: #FE5D16;
+  padding: 30px;
+  border-radius: 15px;
+}
+.gl-unlocking-benefits-heading h1 {
+  max-width: 90%;
+  width: 100%;
+  margin-bottom: 70px;
+}
+.single-gl-unlocking-benefits-slider-item h4 {
+  font-weight: 600;
+  font-size: 22px;
+  color: #FAFAFA;
+  text-transform: capitalize;
+  line-height: normal;
+  margin-bottom: 15px;
+}
+.single-gl-unlocking-benefits-slider-item p {
+  color: #FAFAFA;
+}
+.single-gl-unlocking-benefits-slider-item p {
+  font-size: 16px;
+}
+.gl-unlocking-benefits-slider-content.owl-theme .owl-nav {
+  margin-top: 10px;
+  position: absolute;
+  top: -130px;
+  right: 15px;
+}
+.gl-unlocking-benefits-slider-content.owl-theme .owl-nav [class*=owl-] {
+  font-size: 45px !important;
+  margin: 0 15px;
+  padding: 0;
+  color: #B1B1B1 !important;
+}
+.gl-unlocking-benefits-slider-content.owl-theme .owl-nav [class*=owl-]:hover {
+  background: transparent;
+  color: #1F2A66 !important;
+}
+
+/*========================================================*/
+/*=====          END PURCHASE PRICE PAGE CSS         =====*/
+/*========================================================*/
+
+
+
+
+
+.gl-testimonials-slider-area,.gl-footer-area,.gl-best-opportunities-area {
+  width: 95%;
+  margin: 0 auto;
+}
+/*=== Start GL Testimonials Area Css ===*/
+.gl-testimonials-slider-area {
+  background-color: #1F2A66;
+  padding: 40px 0;
+}
+.gl-testimonials-slider-content .carousel-item h3,.single-gl-testimonials-case-studies-slider-text h3 {
+  color: #FAFAFA;
+}
+.gl-testimonials-slider-content .carousel-indicators button {
+  font-weight: 500;
+  font-size: 25px;
+  color: #000000;
+  margin-top: 40px;
+}
+.gl-testimonials-slider-heading h4,.single-gl-testimonials-case-studies-slider-text h4 {
+  font-weight: 500;
+  font-size: 22px;
+  color: #FE5D16;
+  text-transform: inherit;
+  line-height: normal;
+  margin-bottom: 25px;
+}
+.gl-testimonials-slider-content .carousel-indicators, .gl-testimonials-slider-content .carousel-inner,.gl-testimonials-slider-heading {
+  width: 75%;
+  margin: 0 auto;
+}
+.gl-testimonials-slider-content .carousel-indicators {
+  position: inherit;
+  margin-top: 30px;
+  margin-top: 30px;
+}
+.gl-testimonials-slider-content .carousel-indicators [data-bs-target] {
+  box-sizing: content-box;
+  width: auto;
+  height: auto;
+  padding: 0;
+  margin-right: 3px;
+  margin-left: 3px;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+  opacity: 1;
+  transition: opacity .6s ease;
+  text-indent: 0;
+  font-weight: 500;
+  font-size: 20px;
+  color: #FAFAFA;
+  margin: 0;
+  border: none;
+  text-align: left;
+  padding: 20px 8px 0;
+  border-top: 1px solid #FAFAFA;
+}
+.gl-testimonials-slider-content button.active {
+  border-top: 1px solid #FE5D16 !important;
+}
+/*=== End GL Testimonials Area Css ===*/
+
+
+/*=== Start GL Footer Area Css ===*/
+.gl-footer-area {
+  background-color: #1F2A66;
+  padding: 40px 0 15px;
+}
+.gl-main-footer-content {
+  border-top: 1px solid #FAFAFA;
+  padding: 20px 0 60px;
+}
+.gl-footer-heading h1 {
+  color: #FAFAFA;
+  margin-bottom: 70px;
+}
+.gl-footer-left-link-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.single-gl-footer-left-link-content {
+  flex: 0 0 33.33%;
+}
+.single-gl-footer-left-link-content ul li a,.single-gl-footer-right-phone-email-content a {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  color: #FAFAFA;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+  transition: .3s;
+}
+.single-gl-footer-left-link-content ul li a:hover,.single-gl-footer-right-phone-email-content a:hover {
+  color: #FE5D16;
+}
+.gl-footer-right-content {
+  padding-left: 40px;
+}
+.gl-footer-right-phone-email-content {
+  display: flex;
+  flex-direction: row;
+}
+.single-gl-footer-right-phone-email-content:first-child {
+  margin-right: 60px;
+}
+.single-gl-footer-right-phone-email-content h6,.gl-footer-right-phone-email-field p {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #FAFAFA;
+  margin-bottom: 10px;
+}
+.gl-footer-right-phone-email-field {
+  margin-top: 45px;
+}
+.gl-footer-right-phone-email-field form {
+  position: relative;
+}
+.gl-footer-right-phone-email-field form input {
+  font-weight: 600;
+  font-size: 35px;
+  color: #FAFAFA;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #FAFAFA;
+  width: 100%;
+  padding: 5px 70px 4px 0;
+}
+.gl-footer-right-phone-email-field form input::placeholder {
+  color: #FAFAFA;
+}
+.gl-footer-right-phone-email-field form button {
+  background: none;
+  border: none;
+  position: absolute;
+  right: 0;
+  z-index: 2;
+}
+.gl-footer-copywrite-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #FAFAFA;
+  padding-top: 20px;
+}
+.gl-footer-copywrite-content p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #FAFAFA;
+  text-transform: inherit;
+}
+.gl-footer-social-content a svg {
+  width: 24px;
+  height: auto;
+  margin-left: 10px;
+}
+/*=== End GL Footer Area Css ===*/
+
+
