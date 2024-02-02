@@ -72,7 +72,8 @@ p {
   text-transform: inherit;
 }
 
-.gl-similar-btn a,.gl-similar-btn button {
+.gl-similar-btn a,
+.gl-similar-btn button {
   font-family: 'Cabin', sans-serif;
   background: #FE5D16;
   font-weight: 500;
@@ -80,19 +81,30 @@ p {
   color: #FFFFFF;
   text-transform: inherit;
   padding: 15px 25px;
+  -webkit-box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
   border-radius: 8px;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
   transition: .3s;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
   display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
-.gl-similar-btn a svg,.gl-similar-btn button svg {
+.gl-similar-btn a svg,
+.gl-similar-btn button svg {
   margin-left: 8px;
 }
 
-.gl-similar-btn a:hover,.gl-similar-btn button:hover {
+.gl-similar-btn a:hover,
+.gl-similar-btn button:hover {
   background-color: #1F2A66;
 }
 
@@ -134,13 +146,22 @@ p {
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 1;
+  z-index: 9;
 }
 
 .gl-header-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
@@ -151,7 +172,11 @@ p {
   color: #FFFFFF;
   text-transform: inherit;
   line-height: normal;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -162,8 +187,15 @@ p {
 }
 
 .gl-header-menu>ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -179,6 +211,8 @@ p {
   color: #FAFAFA;
   text-transform: capitalize;
   line-height: 1.3;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
   transition: .3s;
 }
 
@@ -188,12 +222,22 @@ p {
   margin-top: -5px;
 }
 
-.gl-header-menu>ul li a:hover,.home-header-content .gl-header-menu ul li a:hover {
+.gl-header-menu>ul li a:hover,
+.home-header-content .gl-header-menu ul li a:hover {
   color: #FE5D16;
 }
 
-.gl-header-menu>ul li a:hover svg path,.home-header-content .gl-header-menu>ul li a:hover svg path  {
+.gl-header-menu>ul li a:hover svg path,
+.home-header-content .gl-header-menu>ul li a:hover svg path {
   fill: #FE5D16;
+}
+
+.how-works-menu>ul li a:hover {
+  color: #1F2A66;
+}
+
+.how-works-menu>ul li a:hover svg path {
+  fill: #1F2A66;
 }
 
 .gl-header-menu ul li ul {
@@ -227,15 +271,18 @@ p {
 
 
 .home-header-content .gl-header-logo a,
-.home-header-content .gl-header-menu ul li a{
+.home-header-content .gl-header-menu ul li a {
   color: #1F2A66;
 }
-.home-header-content .gl-header-menu>ul li a svg path  {
+
+.home-header-content .gl-header-menu>ul li a svg path {
   fill: #1F2A66;
 }
+
 .mobile-menu-icon {
+  background: #FAFAFA;
   padding: 5px;
-  border: 1.5px solid #000000;
+  border: 1.5px solid #0c5eef;
   border-radius: 5px;
   -webkit-box-shadow: 0 0 7px rgba(0, 0, 0, .5);
   box-shadow: 0 0 7px rgba(0, 0, 0, .5);
@@ -260,7 +307,7 @@ p {
   position: absolute;
   height: 2px;
   width: 22px;
-  background: #000000;
+  background: #0c5eef;
   border-radius: 0;
   opacity: 1;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
@@ -326,13 +373,16 @@ p {
 .gl-home-hero-area {
   padding-top: 160px;
 }
+
 .gl-home-hero-top-content {
   width: 70%;
   margin-bottom: 160px;
 }
+
 .gl-home-hero-top-content h1 {
   margin-bottom: 15px;
 }
+
 .gl-home-hero-top-content p {
   font-size: 16px;
   margin-top: 15px;
@@ -340,9 +390,11 @@ p {
   width: 85%;
   color: #566096;
 }
+
 .gl-home-hero-bottom-content {
   position: relative;
 }
+
 .gl-home-hero-bottom-image-content img {
   width: 100%;
   height: auto;
@@ -356,22 +408,27 @@ p {
   bottom: 30px;
   z-index: 1;
 }
+
 .single-gl-home-hero-bottom-text-content {
   padding: 54px 80px;
   text-align: center;
   border-bottom: 1px solid #FAFAFA;
 }
+
 .single-gl-home-hero-bottom-text-content:last-child {
   border-bottom: none;
 }
+
 .single-gl-home-hero-bottom-text-content h1 {
   font-size: 90px;
   color: #FAFAFA;
   margin-bottom: 15px;
 }
+
 .single-gl-home-hero-bottom-text-content p {
   color: #FAFAFA;
 }
+
 .single-gl-home-hero-bottom-text-content h5 {
   font-family: 'Cabin', sans-serif;
   font-weight: 500;
@@ -386,26 +443,32 @@ p {
 .gl-how-it-works-area {
   padding: 160px 0;
 }
+
 .gl-how-it-works-image-content img {
   width: 95%;
   height: auto;
 }
-.gl-how-it-works-text-content  .gl-benefits-left-heading-text p {
+
+.gl-how-it-works-text-content .gl-benefits-left-heading-text p {
   width: 100%;
 }
+
 .gl-how-it-works-text-content .gl-benefits-left-btn.gl-similar-btn {
   margin-top: 160px;
   text-align: right;
 }
+
 /* end gl how it works area css  */
 
 /* start key features area css  */
 .gl-key-features-area {
-padding: 0;
+  padding: 0;
 }
+
 .gl-key-features-area.page {
   padding: 80px 0;
 }
+
 .gl-key-features-heading {
   padding-bottom: 80px;
 }
@@ -417,19 +480,29 @@ padding: 0;
   margin: 0 auto;
   margin-top: 20px;
 }
+
 .testimonials-heading p {
   font-size: 22px;
   max-width: 550px;
   margin: 0 auto;
   margin-top: 20px;
 }
+
 .gl-key-features-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 
 .single-gl-key-features-content {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 20%;
   flex: 0 0 20%;
   padding: 0 10px;
 }
@@ -439,8 +512,14 @@ padding: 0;
   width: 45px;
   height: 42px;
   border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -476,11 +555,13 @@ padding: 0;
   width: 100%;
   height: auto;
 }
+
 .gl-benefits-left-heading-text p {
   margin-top: 30px;
   margin-bottom: 60px;
   width: 95%;
 }
+
 .gl-benefits-left-list-item li {
   font-weight: 600;
   font-size: 22px;
@@ -497,6 +578,7 @@ padding: 0;
 .gl-benefits-left-btn.gl-similar-btn {
   margin-top: 120px;
 }
+
 /* end gl benefits area css  */
 
 
@@ -533,6 +615,7 @@ padding: 0;
   border-radius: 15px;
   color: #FFFFFF;
   padding: 35px;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   width: 95%;
   margin-left: 5%;
@@ -561,9 +644,11 @@ padding: 0;
 .gl-technical-specification-area {
   padding: 0;
 }
+
 .gl-technical-specification-area.page {
   padding: 160px 0;
 }
+
 .gl-technical-specification-heading h1 {
   text-align: center;
   margin-bottom: 70px;
@@ -572,6 +657,7 @@ padding: 0;
 .single-gl-technical-specification-image img {
   width: 100%;
   height: 360px;
+  -o-object-fit: cover;
   object-fit: cover;
   border-radius: 15px;
 }
@@ -635,10 +721,13 @@ padding: 0;
   background: #FAFAFA;
   padding: 40px;
   border-radius: 15px;
+  -webkit-transition: .2s;
+  -o-transition: .2s;
   transition: .2s;
 }
 
 .single-gl-purchase-pricing-content:hover {
+  -webkit-box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
 }
 
@@ -680,8 +769,15 @@ padding: 0;
 }
 
 .single-gl-purchase-pricing-bottom-content ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   margin-top: 15px;
 }
@@ -698,11 +794,18 @@ padding: 0;
 
 .single-gl-purchase-pricing-btn.gl-similar-btn a {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   border-radius: 8px;
   border: 1px solid #1F2A66;
+  -webkit-box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
   background: transparent;
   color: #1F2A66;
@@ -716,7 +819,7 @@ padding: 0;
   border: 1px solid #FE5D16;
 }
 
-.single-gl-purchase-pricing-content:hover .single-gl-purchase-pricing-btn.gl-similar-btn a svg path, 
+.single-gl-purchase-pricing-content:hover .single-gl-purchase-pricing-btn.gl-similar-btn a svg path,
 .single-gl-purchase-pricing-btn.gl-similar-btn a:hover svg path,
 .single-gl-purchase-pricing-btn.gl-similar-btn a.active svg path {
   stroke: #FAFAFA;
@@ -724,17 +827,28 @@ padding: 0;
 
 
 .single-gl-purchase-pricing-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   margin-top: 40px;
 }
 
 .col-lg-4:nth-child(2) .single-gl-purchase-pricing-bottom {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
 .col-lg-4:last-child .single-gl-purchase-pricing-bottom {
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
   justify-content: flex-end;
 }
 
@@ -757,18 +871,29 @@ padding: 0;
   border-radius: 15px;
   margin-top: 80px;
 }
+
 .gl-home-installation-setup-count {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 70px 0;
 }
+
 .single-gl-home-installation-setup-count h1 {
   font-size: 95px;
 }
+
 .single-gl-home-installation-setup-count {
   text-align: center;
 }
+
 /* end home installation setup area css */
 
 
@@ -779,24 +904,33 @@ padding: 0;
 .gl-about-us-area {
   padding: 160px 0;
 }
+
 .gl-about-us-top-story-image-content img {
   width: 97%;
   height: auto;
   border-radius: 15px;
 }
+
 .text-right {
   text-align: right;
 }
+
 .gl-about-us-top-story-area {
   background: #1F2A66;
   padding: 40px 0;
 }
+
 .gl-about-us-area .gl-purchase-pricing-heading {
   margin-bottom: 70px;
 }
-.gl-about-us-top-story-area .row,.gl-about-us-bottom-story-area .row {
+
+.gl-about-us-top-story-area .row,
+.gl-about-us-bottom-story-area .row {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
+
 .gl-about-us-top-story-image-content h5 {
   font-family: 'Cabin', sans-serif;
   font-weight: 500;
@@ -804,7 +938,9 @@ padding: 0;
   color: #FE5D16;
   margin-bottom: 15px;
 }
-.gl-about-us-top-story-image-content h3,.gl-about-us-top-story-image-content p {
+
+.gl-about-us-top-story-image-content h3,
+.gl-about-us-top-story-image-content p {
   color: #FFFFFF;
 }
 
@@ -812,13 +948,16 @@ padding: 0;
   font-size: 20px;
   margin-top: 20px;
 }
+
 .gl-about-us-bottom-story-area {
   background: #FE5D16;
   padding: 40px 0;
 }
+
 .gl-about-us-bottom-story-area .gl-about-us-top-story-image-content h5 {
   color: #1F2A66;
 }
+
 .gl-about-us-bottom-story-area .gl-similar-btn.change-bg a {
   margin-top: 25px;
   width: 230px;
@@ -834,18 +973,22 @@ padding: 0;
   background: #FAFAFA;
   margin-top: 25px;
 }
+
 .single-gl-home-blog-text-content {
   padding: 35px 15px 15px;
   width: 95%;
 }
+
 .single-gl-home-blog-content-image img {
   width: 100%;
   height: auto;
   border-radius: 15px;
 }
+
 .single-gl-home-blog-text-heading h3 {
   font-size: 24px;
 }
+
 .single-gl-home-blog-text-heading p {
   font-size: 16px;
   color: #38437D;
@@ -854,46 +997,64 @@ padding: 0;
 }
 
 .single-gl-home-blog-text-btn-date {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
+
 .single-gl-home-blog-text-btn-date p {
   font-size: 16px;
   color: #566096;
   margin-left: 30px;
 }
+
 .single-gl-home-blog-text-btn-date .gl-similar-btn a {
 
   width: 220px;
 }
-/* end gl home blog  area css */ 
 
-/* start gl home contact area css */ 
+/* end gl home blog  area css */
+
+/* start gl home contact area css */
 
 .gl-home-contact-area {
   padding: 160px 0;
 }
+
 .gl-home-contact-content .row {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
+
 .gl-home-contact-left-content .gl-purchase-pricing-heading {
   width: 90%;
   margin-bottom: 35px;
 }
+
 .gl-home-contact-left-content .gl-purchase-pricing-heading.text-left p {
   margin-left: 0;
 }
+
 .gl-home-contact-left-content .gl-similar-btn button {
   border: none;
 }
+
 .gl-home-contact-right-image img {
   width: 100%;
   height: auto;
 }
+
 .gl-home-contact-left-form form {
   width: 80%;
 }
-.gl-home-contact-left-form form input,.gl-home-contact-left-form form textarea,.gl-home-contact-left-full-field select {
+
+.gl-home-contact-left-form form input,
+.gl-home-contact-left-form form textarea,
+.gl-home-contact-left-full-field select {
   font-family: 'Cabin', sans-serif;
   font-weight: 500;
   font-size: 22px;
@@ -907,26 +1068,61 @@ padding: 0;
   background: transparent;
   margin-bottom: 25px;
 }
+
 .gl-home-contact-left-full-field select {
   cursor: pointer;
 }
-.gl-home-contact-left-form form input::placeholder,.gl-home-contact-left-form form textarea::placeholder {
+
+.gl-home-contact-left-form form input::-webkit-input-placeholder,
+.gl-home-contact-left-form form textarea::-webkit-input-placeholder {
   color: #38437D;
 }
+
+.gl-home-contact-left-form form input::-moz-placeholder,
+.gl-home-contact-left-form form textarea::-moz-placeholder {
+  color: #38437D;
+}
+
+.gl-home-contact-left-form form input:-ms-input-placeholder,
+.gl-home-contact-left-form form textarea:-ms-input-placeholder {
+  color: #38437D;
+}
+
+.gl-home-contact-left-form form input::-ms-input-placeholder,
+.gl-home-contact-left-form form textarea::-ms-input-placeholder {
+  color: #38437D;
+}
+
+.gl-home-contact-left-form form input::placeholder,
+.gl-home-contact-left-form form textarea::placeholder {
+  color: #38437D;
+}
+
 .gl-home-contact-left-form form textarea {
   resize: none;
   height: 50px;
 }
+
 .gl-home-contact-left-half-field {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
-.gl-home-contact-left-half-field  input {
+
+.gl-home-contact-left-half-field input {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 48%;
   flex: 0 0 48%;
 }
 
-/* end gl home contact area css */ 
+/* end gl home contact area css */
 
 
 
@@ -943,20 +1139,24 @@ padding: 0;
   background-color: #FE5D16;
   padding: 40px 0;
 }
+
 .gl-best-opportunities-left-content img {
   max-width: 280px;
   width: 100%;
   height: auto;
   border-radius: 15px;
 }
+
 .gl-best-opportunities-right-text h3 {
   color: #FFFFFF;
 }
+
 .gl-best-opportunities-right-text p {
   color: #FFFFFF;
   margin-top: 20px;
   margin-bottom: 50px;
 }
+
 /* end gl best opportunities area css  */
 
 
@@ -966,23 +1166,28 @@ padding: 0;
   margin-top: 125px;
   text-align: left;
 }
+
 .gl-worldwide-logistics-area {
   padding-top: 160px;
 }
+
 .single-gl-worldwide-logistics-content h5 {
   font-weight: 600;
   font-size: 24px;
   color: #FE5D16;
   margin-bottom: 12px;
 }
+
 .single-gl-worldwide-logistics-content img {
   width: 100%;
   height: auto;
   border-radius: 15px;
 }
+
 .single-gl-worldwide-logistics-content h3 {
   margin-top: 15px;
 }
+
 .single-gl-worldwide-logistics-content p {
   color: #566096;
   margin: 15px 0;
@@ -993,6 +1198,7 @@ padding: 0;
   margin-bottom: 15px;
   color: #566096;
 }
+
 .single-gl-worldwide-logistics-content .gl-similar-btn a {
   width: 200px;
 }
@@ -1001,71 +1207,237 @@ padding: 0;
   background: #1F2A66;
   padding: 40px 0;
 }
+
 .gl-about-us-area.home-version-two {
   padding: 0;
 }
+
 .gl-hero-ceo-founder-area {
   background: #FE5D16;
   padding: 40px 0;
   border-radius: 10px 10px 0 0;
 }
+
 .gl-hero-ceo-founder-content .row {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
+
 .gl-hero-ceo-founder-text-content h1 {
   color: #FAFAFA;
   margin-bottom: 15px;
 }
+
 .gl-hero-ceo-founder-text-content h5 {
   font-family: 'Cabin', sans-serif;
   font-weight: 500;
   font-size: 24px;
   color: #FAFAFA;
 }
+
 .gl-hero-ceo-founder-text-content p {
   font-size: 16px;
   color: #FAFAFA;
   margin-top: 5px;
 }
+
 .gl-hero-ceo-founder-image-content img {
   width: 100%;
   height: auto;
   border-radius: 15px;
 }
 
-section.gl-offer-services-area {
+.gl-offer-services-area {
   padding-bottom: 160px;
 }
+
 .gl-offer-services-right-text-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
   justify-content: flex-end;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
+
 .single-gl-offer-services-right-text-content {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 50%;
   flex: 0 0 50%;
   text-align: right;
   margin: 25px 0;
 }
+
 .gl-offer-services-left-text-content p {
   color: #566096;
   margin-top: 20px;
 }
+
 .single-gl-offer-services-right-text-content h1 {
   font-size: 90px;
   color: #FE5D16;
 }
+
 .single-gl-offer-services-right-text-content p {
   color: #FE5D16;
 }
-
-
 
 /*========================================================*/
 /*=====             END HOME PAGE CSS              =====*/
 /*========================================================*/
 
+/*========================================================*/
+/*=====         START HOW IT WORKS PAGE CSS          =====*/
+/*========================================================*/
+
+.gl-how-work-hero-area {
+  position: relative;
+  padding-top: 220px;
+  padding-bottom: 160px;
+  margin-bottom: 160px;
+  z-index: 1;
+}
+
+.gl-how-work-hero-area::before {
+  content: "";
+  position: absolute;
+  background-color: rgb(254, 93, 22);
+  left: 0px;
+  top: 0px;
+  width: 50%;
+  height: 100%;
+  z-index: -1;
+  border-radius: 0 0 0 10px;
+}
+
+.gl-how-work-hero-area::after {
+  content: '';
+  position: absolute;
+  background-image: url('../images/works/hero-right.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  right: 0;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  z-index: -1;
+  border-radius: 0 0 10px 0;
+}
+
+.gl-how-work-hero-text h1,
+.gl-how-work-hero-text p {
+  color: #FFFFFF;
+}
+
+.gl-how-work-hero-text h1 {
+  margin-bottom: 500px;
+}
+
+.gl-experience-efficient-area {
+  background: #1F2A66;
+  padding: 80px 0;
+  border-radius: 10px;
+}
+
+.gl-experience-efficient-top-text h1 {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 500;
+  color: #FAFAFA;
+  margin-bottom: 20px;
+}
+
+.gl-experience-efficient-top-text p {
+  max-width: 800px;
+  font-size: 35px;
+}
+
+.gl-experience-efficient-top-text p,
+.single-gl-experience-efficient-top-count h1,
+.single-gl-experience-efficient-top-count p {
+  color: #FAFAFA;
+}
+
+.gl-experience-efficient-area .single-gl-purchase-pricing-bottom p {
+  color: #FF9F75;
+}
+
+.gl-experience-efficient-top-count {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+.single-gl-experience-efficient-top-count {
+  text-align: center;
+  padding-left: 25px;
+  border-left: 1px solid #FAFAFA;
+}
+
+.single-gl-experience-efficient-top-count h1 {
+  font-size: 95px;
+  margin-bottom: 15px;
+}
+
+.gl-purchase-pricing-bottom .row .col-md-4:nth-child(2) .single-gl-purchase-pricing-bottom {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.gl-purchase-pricing-bottom .row .col-md-4:last-child .single-gl-purchase-pricing-bottom {
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.gl-logistics-evolution-area {
+  padding: 160px 0;
+}
+
+.single-gl-logistics-evolution-content h1,
+.single-gl-logistics-evolution-content p {
+  font-family: 'Cabin', sans-serif;
+}
+
+.single-gl-logistics-evolution-content h1 {
+  font-size: 65px;
+}
+
+.single-gl-logistics-evolution-content p {
+  font-size: 33px;
+  color: #566096;
+  margin: 40px 0 60px;
+}
+
+.single-gl-logistics-evolution-content img {
+  width: 100%;
+  height: auto;
+}
+
+/*========================================================*/
+/*=====          END HOW IT WORKS PAGE CSS           =====*/
+/*========================================================*/
 
 /*========================================================*/
 /*=====      START FEATURES & BENEFITS PAGE CSS      =====*/
@@ -1099,6 +1471,7 @@ section.gl-offer-services-area {
 .gl-technical-specification-hero-area {
   background-image: url('../images/technical/tech.png');
 }
+
 .gl-technical-specification-area.page {
   padding: 160px 0 80px;
 }
@@ -1115,6 +1488,7 @@ section.gl-offer-services-area {
 .gl-purchase-pricing-hero-area {
   background-image: url('../images/case-studies/case.png');
 }
+
 .gl-unlocking-benefits-area {
   padding-bottom: 100px;
 }
@@ -1231,6 +1605,7 @@ section.gl-offer-services-area {
 }
 
 .gl-testimonials-slider-content .carousel-indicators [data-bs-target] {
+  -webkit-box-sizing: content-box;
   box-sizing: content-box;
   width: auto;
   height: auto;
@@ -1241,6 +1616,8 @@ section.gl-offer-services-area {
   background-color: transparent;
   border: 0;
   opacity: 1;
+  -webkit-transition: opacity .6s ease;
+  -o-transition: opacity .6s ease;
   transition: opacity .6s ease;
   text-indent: 0;
   font-weight: 500;
@@ -1267,6 +1644,7 @@ section.gl-offer-services-area {
   margin-bottom: 25px;
   border-radius: 0 0 10px 10px;
 }
+
 .gl-main-footer-content {
   border-top: 1px solid #FAFAFA;
   padding: 20px 0 60px;
@@ -1278,12 +1656,20 @@ section.gl-offer-services-area {
 }
 
 .gl-footer-left-link-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 
 .single-gl-footer-left-link-content {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 33.33%;
   flex: 0 0 33.33%;
 }
 
@@ -1295,6 +1681,8 @@ section.gl-offer-services-area {
   color: #FAFAFA;
   text-transform: capitalize;
   margin-bottom: 15px;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
   transition: .3s;
 }
 
@@ -1308,7 +1696,12 @@ section.gl-offer-services-area {
 }
 
 .gl-footer-right-phone-email-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
 }
 
@@ -1344,6 +1737,22 @@ section.gl-offer-services-area {
   padding: 5px 70px 4px 0;
 }
 
+.gl-footer-right-phone-email-field form input::-webkit-input-placeholder {
+  color: #FAFAFA;
+}
+
+.gl-footer-right-phone-email-field form input::-moz-placeholder {
+  color: #FAFAFA;
+}
+
+.gl-footer-right-phone-email-field form input:-ms-input-placeholder {
+  color: #FAFAFA;
+}
+
+.gl-footer-right-phone-email-field form input::-ms-input-placeholder {
+  color: #FAFAFA;
+}
+
 .gl-footer-right-phone-email-field form input::placeholder {
   color: #FAFAFA;
 }
@@ -1357,8 +1766,14 @@ section.gl-offer-services-area {
 }
 
 .gl-footer-copywrite-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   border-top: 1px solid #FAFAFA;
   padding-top: 20px;

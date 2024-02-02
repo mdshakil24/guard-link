@@ -20,14 +20,17 @@ $(document).ready(function(){
             0: {
                 items: 1,
             },
-            451: {
+            576: {
                 items: 2,
             },
-            576: {
-                items: 3,
+            768: {
+                items: 2.5,
             },
-            991: {
-                items: 4.6,
+            992: {
+                items: 3.5,
+            },
+            1200: {
+                items: 4.3,
             }
         }
     });

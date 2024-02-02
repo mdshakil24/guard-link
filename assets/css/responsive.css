@@ -3,11 +3,13 @@
         font-size: 60px;
     }
 
-    .gl-home-hero-area {
+    .gl-home-hero-area,
+    .gl-worldwide-logistics-area {
         padding-top: 120px;
     }
 
-    .gl-testimonials-case-studies-area {
+    .gl-testimonials-case-studies-area,
+    .gl-offer-services-area {
         padding-bottom: 120px;
     }
 
@@ -15,11 +17,20 @@
         padding: 60px 0 120px;
     }
 
+    ..gl-how-work-hero-area {
+        margin-bottom: 120px;
+    }
+
     .gl-how-it-works-area,
     .gl-purchase-pricing-area,
     .gl-about-us-area,
-    .gl-home-contact-area {
+    .gl-home-contact-area,
+    .gl-logistics-evolution-area {
         padding: 120px 0;
+    }
+
+    .gl-technical-specification-area.page {
+        padding: 120px 0 70px;
     }
 
     .gl-purchase-pricing-content {
@@ -63,12 +74,31 @@
         font-size: 80px;
     }
 
+    .gl-how-work-hero-area {
+        padding-top: 160px;
+        padding-bottom: 120px;
+    }
+
+    .gl-how-work-hero-text h1 {
+        margin-bottom: 300px;
+    }
+
+    .single-gl-logistics-evolution-content p {
+        font-size: 27px;
+        margin: 25px 0 35px;
+    }
+
+    .single-gl-logistics-evolution-content h1 {
+        font-size: 56px;
+    }
 
 
 }
 
 @media all and (min-width: 1200px) {
     .gl-header-menu>ul {
+        display: -webkit-box !important;
+        display: -ms-flexbox !important;
         display: flex !important;
     }
 }
@@ -84,6 +114,14 @@
 
     p {
         font-size: 20px;
+    }
+
+    .single-gl-logistics-evolution-content h1 {
+        font-size: 47px;
+    }
+
+    .single-gl-logistics-evolution-content p {
+        font-size: 25px;
     }
 
     .gl-home-contact-left-form form input,
@@ -105,6 +143,9 @@
     }
 
     .gl-header-menu>ul {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
         position: absolute;
         left: 0;
@@ -167,6 +208,9 @@
     }
 
     .gl-how-it-works-content .row {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
         flex-direction: column-reverse;
     }
 
@@ -181,6 +225,8 @@
     }
 
     .single-gl-key-features-content {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 33.33%;
         flex: 0 0 33.33%;
         margin-top: 25px;
     }
@@ -288,6 +334,41 @@
         width: 100%;
     }
 
+    .single-gl-worldwide-logistics-content {
+        margin-bottom: 30px;
+    }
+
+    .single-gl-offer-services-right-text-content h1 {
+        font-size: 70px;
+    }
+
+    .gl-hero-ceo-founder-text-content h1 {
+        font-size: 45px;
+    }
+
+    .gl-testimonials-slider-content .carousel-indicators,
+    .gl-testimonials-slider-content .carousel-inner,
+    .gl-testimonials-slider-heading {
+        width: 100%;
+    }
+
+    .gl-testimonials-slider-content .carousel-indicators [data-bs-target] {
+        font-size: 18px;
+    }
+
+    .similar-hero-area {
+        padding-top: 250px;
+        padding-bottom: 280px;
+    }
+
+    .gl-how-work-hero-text h1 {
+        margin-bottom: 220px;
+    }
+
+    .single-gl-experience-efficient-top-count h1 {
+        font-size: 70px;
+    }
+
 
 }
 
@@ -302,7 +383,12 @@
         padding-top: 110px;
     }
 
-    .gl-testimonials-case-studies-area {
+    .gl-worldwide-logistics-area {
+        padding-top: 90px;
+    }
+
+    .gl-testimonials-case-studies-area,
+    .gl-offer-services-area {
         padding-bottom: 90px;
     }
 
@@ -313,10 +399,15 @@
     .gl-how-it-works-area,
     .gl-purchase-pricing-area,
     .gl-about-us-area,
-    .gl-home-contact-area {
+    .gl-home-contact-area,
+    .gl-technical-specification-area.page,
+    .gl-logistics-evolution-area {
         padding: 90px 0;
     }
 
+    .gl-how-work-hero-area {
+        margin-bottom: 90px;
+    }
 
     .single-gl-home-hero-bottom-text-content {
         padding: 25px 30px;
@@ -345,10 +436,15 @@
     }
 
     .single-gl-key-features-content {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
         flex: 0 0 50%;
     }
 
     .single-gl-testimonials-case-studies-slider-item .row {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
         flex-direction: column-reverse;
     }
 
@@ -366,6 +462,9 @@
     }
 
     .gl-technical-specification-content .row:nth-child(2) {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
         flex-direction: column-reverse;
     }
 
@@ -417,30 +516,126 @@
         margin-bottom: 30px;
         display: block;
     }
+
     .gl-best-opportunities-right-text p {
         margin-top: 10px;
         margin-bottom: 30px;
     }
+
     .gl-footer-right-content {
         padding-left: 0;
         margin-top: 50px;
     }
+
     .gl-footer-right-phone-email-field {
         margin-top: 15px;
     }
+
     .gl-footer-right-content {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
         flex-direction: column-reverse;
     }
+
     .gl-footer-right-phone-email-content {
         margin-top: 25px;
     }
+
     .gl-about-us-top-story-image-content img {
         width: 100%;
         margin-top: 40px;
     }
+
     .gl-about-us-top-story-area .row {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
         flex-direction: column-reverse;
+    }
+
+    .single-gl-offer-services-right-text-content {
+        text-align: center;
+    }
+
+    .gl-all-parts-world-area .row {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+    }
+
+    .gl-testimonials-slider-content .carousel-indicators [data-bs-target] {
+        font-size: 14px;
+    }
+
+    .gl-testimonials-slider-content .carousel-item h3,
+    .single-gl-testimonials-case-studies-slider-text h3 {
+        font-size: 22px;
+    }
+
+    .gl-hero-ceo-founder-image-content img {
+        margin-top: 40px;
+    }
+
+    .gl-key-features-area.page {
+        padding-bottom: 30px;
+    }
+
+    .similar-hero-area p {
+        margin-top: 20px;
+    }
+
+    .gl-technical-specification-area.page .row {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+    }
+
+    .gl-technical-specification-area.page .gl-technical-specification-content .row:nth-child(odd) {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .gl-how-work-hero-text h1 {
+        margin-bottom: 70px;
+    }
+
+    .gl-how-work-hero-content {
+        text-align: center;
+    }
+
+    .gl-experience-efficient-top-text p {
+        font-size: 28px;
+    }
+
+    .single-gl-experience-efficient-top-count h1 {
+        font-size: 55px;
+    }
+
+    .single-gl-experience-efficient-top-count {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        margin-bottom: 40px;
+    }
+
+    .single-gl-experience-efficient-top-count:last-child {
+        margin-bottom: 0;
+    }
+
+    .gl-experience-efficient-area {
+        padding: 70px 0;
+    }
+
+    .gl-logistics-evolution-content .row .col-lg-6:last-child .single-gl-logistics-evolution-content {
+        margin-top: 65px;
     }
 
 
@@ -452,29 +647,89 @@
     h1 {
         font-size: 40px;
     }
+
     h3 {
         font-size: 25px;
     }
+
+    .similar-hero-area p {
+        font-size: 20px;
+    }
+
     .single-gl-home-installation-setup-count h1 {
         font-size: 35px;
     }
+
     .single-gl-home-hero-bottom-text-content h1 {
         font-size: 35px;
     }
+
     .single-gl-home-hero-bottom-text-content {
         padding: 25px 20px;
     }
+
     .gl-home-hero-bottom-text-content {
         right: 15px;
         bottom: 15px;
     }
+
     .gl-benefits-left-heading-text p {
         margin-bottom: 25px;
     }
+
     .gl-home-installation-setup-video-content iframe {
         height: 425px;
     }
 
+    .carousel-indicators {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .gl-testimonials-slider-content .carousel-indicators [data-bs-target] {
+        padding: 15px 8px;
+    }
+
+    .single-gl-offer-services-right-text-content h1 {
+        font-size: 55px;
+    }
+
+    .gl-hero-ceo-founder-text-content h1 {
+        font-size: 30px;
+    }
+
+    .similar-hero-area {
+        padding-top: 200px;
+        padding-bottom: 220px;
+    }
+
+    .gl-how-work-hero-area {
+        padding-top: 120px;
+        padding-bottom: 80px;
+    }
+
+    .gl-how-work-hero-text h1 {
+        margin-bottom: 40px;
+    }
+
+    .gl-experience-efficient-top-text p {
+        font-size: 22px;
+    }
+
+    .gl-purchase-pricing-bottom .row .col-md-4:last-child .single-gl-purchase-pricing-bottom {
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+
+    .single-gl-logistics-evolution-content p {
+        font-size: 22px;
+        margin: 20px 0 30px;
+    }
+
+    .single-gl-logistics-evolution-content h1 {
+        font-size: 40px;
+    }
 
 
 }
@@ -485,26 +740,56 @@
     h1 {
         font-size: 34px;
     }
-    p,.gl-benefits-left-list-item li,.testimonials-heading p,.single-gl-technical-specification-text p,.gl-about-us-top-story-image-content p {
+
+    p,
+    .gl-benefits-left-list-item li,
+    .testimonials-heading p,
+    .single-gl-technical-specification-text p,
+    .gl-about-us-top-story-image-content p,
+    .similar-hero-area p {
         font-size: 18px;
     }
+
+    .gl-logistics-evolution-content .row .col-lg-6:last-child .single-gl-logistics-evolution-content {
+        margin-top: 50px;
+    }
+
     .gl-home-hero-area {
         padding-top: 85px;
     }
-    .gl-testimonials-case-studies-area {
+
+    .gl-worldwide-logistics-area,
+    .gl-key-features-area.page {
+        padding-top: 70px;
+    }
+
+    .gl-testimonials-case-studies-area,
+    .gl-offer-services-area {
         padding-bottom: 70px;
     }
+
     .benefits-and-features-area {
         padding: 40px 0 70px;
     }
-    .gl-how-it-works-area, .gl-purchase-pricing-area, .gl-about-us-area, .gl-home-contact-area {
+
+    .gl-how-it-works-area,
+    .gl-purchase-pricing-area,
+    .gl-about-us-area,
+    .gl-home-contact-area,
+    .gl-technical-specification-area.page,
+    .gl-logistics-evolution-area {
         padding: 70px 0;
+    }
+
+    .gl-how-work-hero-area {
+        margin-bottom: 70px;
     }
 
     .mobile-menu-icon {
         position: relative;
         right: 0;
     }
+
     .gl-purchase-pricing-heading p {
         margin-top: 15px;
     }
@@ -512,90 +797,165 @@
     .gl-header-right-btn.gl-similar-btn {
         display: none;
     }
-    .gl-testimonials-slider-content .carousel-item h3, .single-gl-testimonials-case-studies-slider-text h3 {
+
+    .gl-testimonials-slider-content .carousel-item h3,
+    .single-gl-testimonials-case-studies-slider-text h3 {
         font-size: 20px;
     }
+
     .single-gl-testimonials-case-studies-slider-text {
         padding: 20px;
     }
+
     .gl-technical-specification-content .row:nth-child(even) {
         margin: 50px 0;
     }
+
     .gl-purchase-pricing-content {
         margin: 50px 0;
     }
+
     .gl-home-installation-setup-count {
+        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     }
+
     .single-gl-home-installation-setup-count {
         max-width: 100%;
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
         flex: 0 0 50%;
         margin-bottom: 25px;
     }
+
     .single-gl-home-installation-setup-count:last-child {
         margin-bottom: 0;
     }
+
     .gl-about-us-area .gl-purchase-pricing-heading {
         margin-bottom: 40px;
     }
+
     .single-gl-footer-left-link-content {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
         flex: 0 0 50%;
         margin-top: 30px;
     }
+
     .gl-footer-heading h1 {
         margin-bottom: 15px;
     }
+
     .gl-footer-right-content {
         margin-top: 30px;
     }
+
     .gl-footer-copywrite-content {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
         flex-direction: column-reverse;
     }
+
     .gl-footer-copywrite-content p {
         margin-top: 20px;
     }
+
     .gl-footer-right-phone-email-field form input {
         font-size: 25px;
     }
+
     .gl-main-footer-content {
         padding: 20px 0 30px;
     }
+
     .single-gl-home-hero-bottom-text-content h1 {
         font-size: 30px;
     }
+
     .single-gl-home-hero-bottom-text-content h5 {
         font-size: 16px;
     }
+
     .single-gl-home-hero-bottom-text-content {
         padding: 20px 15px;
     }
+
     .single-gl-home-hero-bottom-text-content h1 {
         font-size: 30px;
         margin-bottom: 5px;
     }
+
     .gl-home-hero-top-content p {
         margin-bottom: 30px;
     }
+
     .gl-home-hero-top-content {
         margin-bottom: 190px;
     }
+
     .single-gl-key-features-content:first-child {
         margin-top: 0;
     }
+
     .gl-home-installation-setup-video-content iframe {
         height: 330px;
     }
+
     .single-gl-purchase-pricing-bottom p {
         font-size: 22px;
     }
+
     .gl-header-menu>ul {
         top: 70px;
     }
-    .gl-home-contact-left-form form input, .gl-home-contact-left-form form textarea, .gl-home-contact-left-full-field select {
+
+    .gl-home-contact-left-form form input,
+    .gl-home-contact-left-form form textarea,
+    .gl-home-contact-left-full-field select {
         font-size: 18px;
         margin-bottom: 15px;
     }
 
+    .single-gl-offer-services-right-text-content h1 {
+        font-size: 50px;
+    }
+
+    .gl-testimonials-slider-area {
+        padding-bottom: 20px;
+    }
+
+    .similar-hero-area {
+        padding-top: 160px;
+        padding-bottom: 180px;
+    }
+
+    .gl-unlocking-benefits-heading h1 {
+        max-width: 85%;
+        margin-bottom: 35px;
+    }
+
+    .gl-unlocking-benefits-slider-content.owl-theme .owl-nav {
+        right: 0;
+    }
+
+    .gl-unlocking-benefits-area {
+        padding-bottom: 70px;
+    }
+
+    .gl-how-work-hero-area {
+        padding-top: 100px;
+        padding-bottom: 60px;
+    }
+
+    .gl-how-work-hero-text h1 {
+        margin-bottom: 25px;
+    }
+
+    .single-gl-purchase-pricing-bottom {
+        margin-top: 20px;
+    }
 
 }
 
@@ -604,82 +964,187 @@
     h3 {
         font-size: 22px;
     }
-    .gl-home-contact-left-half-field  input {
+
+    .gl-home-contact-left-half-field input {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
         flex: 0 0 100%;
     }
+
     .gl-home-contact-left-half-field {
+        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     }
+
     .gl-home-contact-left-form form textarea {
         resize: none;
         height: 40px;
     }
+
     .single-gl-purchase-pricing-top-content h1 {
         font-size: 40px;
     }
+
+    .single-gl-logistics-evolution-content h1 {
+        font-size: 35px;
+    }
+
+    .single-gl-logistics-evolution-content p {
+        font-size: 19px;
+    }
+
     .single-gl-testimonials-case-studies-slider-profile-details h4 {
         font-size: 18px;
     }
+
     .gl-home-hero-area {
         padding-top: 75px;
     }
-    .gl-testimonials-case-studies-area {
+
+    .gl-worldwide-logistics-area,
+    .gl-key-features-area.page {
+        padding-top: 50px;
+    }
+
+    .gl-testimonials-case-studies-area,
+    .gl-offer-services-area {
         padding-bottom: 50px;
     }
+
     .benefits-and-features-area {
         padding: 30px 0 50px;
     }
-    .gl-how-it-works-area, .gl-purchase-pricing-area, .gl-about-us-area, .gl-home-contact-area {
+
+    .gl-how-it-works-area,
+    .gl-purchase-pricing-area,
+    .gl-about-us-area,
+    .gl-home-contact-area,
+    .gl-technical-specification-area.page,
+    .gl-logistics-evolution-area {
         padding: 50px 0;
     }
-    p, .gl-benefits-left-list-item li, .testimonials-heading p, .single-gl-technical-specification-text p, .gl-about-us-top-story-image-content p {
+
+    .gl-how-work-hero-area {
+        margin-bottom: 50px;
+    }
+
+    p,
+    .gl-benefits-left-list-item li,
+    .testimonials-heading p,
+    .single-gl-technical-specification-text p,
+    .gl-about-us-top-story-image-content p,
+    .similar-hero-area p {
         font-size: 16px;
     }
+
     .gl-benefits-left-list-item li span {
         margin-right: 7px;
     }
+
     .single-gl-home-hero-bottom-text-content {
         padding: 14px 10px;
     }
+
     .single-gl-home-hero-bottom-text-content h1 {
         font-size: 28px;
     }
+
     .single-gl-key-features-content {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
         flex: 0 0 100%;
     }
-    .gl-similar-btn a, .gl-similar-btn button {
+
+    .gl-similar-btn a,
+    .gl-similar-btn button {
         font-size: 15px;
     }
+
     .single-gl-purchase-pricing-content {
         padding: 20px;
     }
+
     .single-gl-purchase-pricing-top-content {
         padding: 30px 20px;
     }
-    .gl-similar-btn a, .gl-similar-btn button {
+
+    .gl-similar-btn a,
+    .gl-similar-btn button {
         padding: 10px 15px;
     }
+
     .single-gl-purchase-pricing-bottom p {
         font-size: 20px;
     }
+
     .single-gl-purchase-pricing-bottom img {
         height: 30px;
     }
+
     .single-gl-technical-specification-text p {
         margin-top: 10px;
         margin-bottom: 15px;
     }
+
     .gl-footer-right-phone-email-content {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
     }
+
     .gl-footer-right-phone-email-field form input {
         font-size: 22px;
     }
+
     .gl-footer-right-phone-email-field form button svg {
         width: 30px;
     }
+
     .gl-best-opportunities-left-content img {
         max-width: 100%;
+    }
+
+    .single-gl-offer-services-right-text-content h1 {
+        font-size: 40px;
+    }
+
+    .gl-hero-ceo-founder-text-content h1 {
+        font-size: 28px;
+    }
+
+    .similar-hero-area {
+        padding-top: 120px;
+        padding-bottom: 150px;
+    }
+
+    .single-gl-purchase-pricing-bottom img {
+        height: 25px;
+        margin-right: 12px;
+    }
+
+    .single-gl-experience-efficient-top-count {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        margin-bottom: 30px;
+    }
+
+    .single-gl-experience-efficient-top-count h1 {
+        font-size: 45px;
+    }
+
+    .gl-experience-efficient-area {
+        padding: 50px 0;
+    }
+
+    .gl-experience-efficient-top-text p {
+        font-size: 18px;
+    }
+
+    .gl-experience-efficient-top-count {
+        margin-top: 50px;
+        margin-bottom: 20px;
     }
 
 
