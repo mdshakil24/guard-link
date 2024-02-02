@@ -1,5 +1,13 @@
 $(document).ready(function(){
 
+    $(".all-p-humber").click(function () {
+        $(this).toggleClass("open");
+    });
+    $(".mobile-menu-icon").click(function () {
+        $('.gl-header-menu>ul').slideToggle();
+    });
+
+
     $(".gl-unlocking-benefits-slider-content").owlCarousel({
         loop: true,
         dots: false,

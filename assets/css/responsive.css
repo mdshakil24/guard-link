@@ -1,0 +1,686 @@
+@media all and (max-width: 1399px) {
+    h1 {
+        font-size: 60px;
+    }
+
+    .gl-home-hero-area {
+        padding-top: 120px;
+    }
+
+    .gl-testimonials-case-studies-area {
+        padding-bottom: 120px;
+    }
+
+    .benefits-and-features-area {
+        padding: 60px 0 120px;
+    }
+
+    .gl-how-it-works-area,
+    .gl-purchase-pricing-area,
+    .gl-about-us-area,
+    .gl-home-contact-area {
+        padding: 120px 0;
+    }
+
+    .gl-purchase-pricing-content {
+        margin: 60px 0;
+    }
+
+    .gl-key-features-heading {
+        padding-bottom: 40px;
+    }
+
+    .single-gl-home-hero-bottom-text-content h1 {
+        font-size: 70px;
+    }
+
+    .single-gl-home-hero-bottom-text-content {
+        padding: 54px 60px;
+    }
+
+    .gl-home-hero-top-content {
+        width: 75%;
+        margin-bottom: 150px;
+    }
+
+    .gl-how-it-works-text-content .gl-benefits-left-btn.gl-similar-btn,
+    .gl-benefits-left-btn.gl-similar-btn {
+        margin-top: 60px;
+    }
+
+    .gl-benefits-left-heading-text p {
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    .single-gl-testimonials-case-studies-slider-text {
+        width: 98%;
+        margin-left: 2%;
+        margin-top: 65px;
+    }
+
+    .single-gl-home-installation-setup-count h1 {
+        font-size: 80px;
+    }
+
+
+
+}
+
+@media all and (min-width: 1200px) {
+    .gl-header-menu>ul {
+        display: flex !important;
+    }
+}
+
+@media all and (max-width: 1199px) {
+    h1 {
+        font-size: 54px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .gl-home-contact-left-form form input,
+    .gl-home-contact-left-form form textarea,
+    .gl-home-contact-left-full-field select {
+        font-size: 20px;
+        padding: 5px 0;
+        margin-bottom: 20px;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+        position: absolute;
+        right: 30px;
+    }
+
+    .gl-header-right-btn.gl-similar-btn a {
+        margin-right: 60px;
+    }
+
+    .gl-header-menu>ul {
+        flex-direction: column;
+        position: absolute;
+        left: 0;
+        top: 90px;
+        background: #FE5D16;
+        width: 100%;
+        padding: 25px 0;
+        display: none;
+        text-align: center;
+    }
+
+    .gl-header-menu ul li a,
+    .home-header-content .gl-header-menu ul li a {
+        color: #FAFAFA;
+    }
+
+    .home-header-content .gl-header-menu>ul li a svg path,
+    .gl-header-menu ul li a svg path {
+        fill: #FAFAFA;
+    }
+
+    .gl-header-menu ul li ul {
+        position: relative;
+        left: 0;
+        bottom: 0;
+        width: auto;
+        padding-top: 0;
+        display: none;
+        margin-left: 15px;
+    }
+
+    .gl-header-menu>ul li {
+        margin: 8px 0;
+    }
+
+    .gl-header-menu ul li a:hover,
+    .home-header-content .gl-header-menu ul li a:hover {
+        color: #1F2A66;
+    }
+
+    .gl-home-hero-top-content {
+        width: 100%;
+        margin-bottom: 150px;
+    }
+
+    .single-gl-home-hero-bottom-text-content h1 {
+        font-size: 55px;
+    }
+
+    .single-gl-home-hero-bottom-text-content h5 {
+        font-size: 22px;
+    }
+
+    .single-gl-home-hero-bottom-text-content {
+        padding: 35px 45px;
+    }
+
+    .gl-how-it-works-image-content img {
+        width: 100%;
+    }
+
+    .gl-how-it-works-content .row {
+        flex-direction: column-reverse;
+    }
+
+    .gl-how-it-works-text-content .gl-benefits-left-btn.gl-similar-btn {
+        text-align: left;
+    }
+
+    .gl-how-it-works-text-content .gl-benefits-left-btn.gl-similar-btn,
+    .gl-benefits-left-btn.gl-similar-btn {
+        margin-top: 35px;
+        margin-bottom: 50px;
+    }
+
+    .single-gl-key-features-content {
+        flex: 0 0 33.33%;
+        margin-top: 25px;
+    }
+
+    .single-gl-key-features-text h6 {
+        width: 100%;
+        min-height: auto;
+        margin-bottom: 10px;
+    }
+
+    .gl-testimonials-slider-content .carousel-item h3,
+    .single-gl-testimonials-case-studies-slider-text h3 {
+        font-size: 28px;
+    }
+
+    .single-gl-testimonials-case-studies-slider-text {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 60px;
+    }
+
+    .single-gl-technical-specification-text p {
+        margin-top: 15px;
+        margin-bottom: 35px;
+        font-size: 20px;
+    }
+
+    .single-gl-technical-specification-image img {
+        height: 340px;
+    }
+
+    .single-gl-purchase-pricing-bottom img {
+        height: 35px;
+    }
+
+    .single-gl-purchase-pricing-bottom p {
+        font-size: 26px;
+    }
+
+    .gl-home-installation-setup-video-content iframe {
+        height: 600px;
+        margin-top: 60px;
+    }
+
+    .single-gl-home-installation-setup-count h1 {
+        font-size: 65px;
+    }
+
+    .gl-home-installation-setup-count {
+        padding: 50px 0;
+    }
+
+    .gl-home-contact-left-content .gl-purchase-pricing-heading {
+        width: 100%;
+    }
+
+    .gl-testimonials-slider-area,
+    .gl-footer-area,
+    .gl-best-opportunities-area,
+    .gl-about-us-story-area,
+    .gl-all-parts-world-area,
+    .gl-hero-ceo-founder-area {
+        width: 100%;
+    }
+
+    .gl-about-us-top-story-image-content p {
+        font-size: 18px;
+    }
+
+    .gl-footer-heading h1 {
+        margin-bottom: 50px;
+    }
+
+    .gl-main-footer-content {
+        padding: 20px 0 50px;
+    }
+
+    .gl-footer-right-phone-email-field form input {
+        font-size: 30px;
+    }
+
+    .gl-footer-right-phone-email-field form button svg {
+        width: 40px;
+    }
+
+    .single-gl-footer-left-link-content ul li a,
+    .single-gl-footer-right-phone-email-content a {
+        font-size: 20px;
+    }
+
+    .gl-footer-area {
+        margin-bottom: 0;
+        border-radius: 0;
+    }
+
+    .gl-purchase-pricing-content .row .col-lg-6 .single-gl-purchase-pricing-content {
+        margin-bottom: 40px;
+    }
+
+    .gl-purchase-pricing-content .row .col-lg-6:last-child .single-gl-purchase-pricing-content {
+        margin-bottom: 0;
+    }
+
+    .single-gl-technical-specification-text {
+        width: 100%;
+    }
+
+
+}
+
+
+
+@media all and (max-width: 991px) {
+    h1 {
+        font-size: 50px;
+    }
+
+    .gl-home-hero-area {
+        padding-top: 110px;
+    }
+
+    .gl-testimonials-case-studies-area {
+        padding-bottom: 90px;
+    }
+
+    .benefits-and-features-area {
+        padding: 50px 0 90px;
+    }
+
+    .gl-how-it-works-area,
+    .gl-purchase-pricing-area,
+    .gl-about-us-area,
+    .gl-home-contact-area {
+        padding: 90px 0;
+    }
+
+
+    .single-gl-home-hero-bottom-text-content {
+        padding: 25px 30px;
+    }
+
+    .single-gl-home-hero-bottom-text-content h1 {
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+
+    .single-gl-home-hero-bottom-text-content h5 {
+        font-size: 18px;
+    }
+
+    .gl-home-hero-top-content {
+        margin-bottom: 130px;
+    }
+
+    .gl-home-hero-top-content p {
+        width: 100%;
+    }
+
+    .gl-benefits-left-list-item li {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .single-gl-key-features-content {
+        flex: 0 0 50%;
+    }
+
+    .single-gl-testimonials-case-studies-slider-item .row {
+        flex-direction: column-reverse;
+    }
+
+    .single-gl-testimonials-case-studies-slider-profile img {
+        margin-top: 25px;
+    }
+
+    .gl-testimonials-slider-content .carousel-item h3,
+    .single-gl-testimonials-case-studies-slider-text h3 {
+        font-size: 25px;
+    }
+
+    .single-gl-testimonials-case-studies-slider-text {
+        margin-top: 0;
+    }
+
+    .gl-technical-specification-content .row:nth-child(2) {
+        flex-direction: column-reverse;
+    }
+
+    .single-gl-technical-specification-image img {
+        height: auto;
+    }
+
+    .single-gl-technical-specification-text {
+        margin-top: 30px;
+    }
+
+    .gl-technical-specification-content .row .col-lg-6:first-child {
+        padding-right: calc(var(--bs-gutter-x) * .5);
+    }
+
+    .gl-technical-specification-content .row .col-lg-6:last-child {
+        padding-left: calc(var(--bs-gutter-x) * .5);
+    }
+
+    .gl-home-installation-setup-video-content iframe {
+        height: 500px;
+        margin-top: 40px;
+    }
+
+    .single-gl-home-installation-setup-count h1 {
+        font-size: 50px;
+    }
+
+    .single-gl-home-installation-setup-count {
+        max-width: 200px;
+    }
+
+    .single-gl-home-blog-text-btn-date .gl-similar-btn a {
+        width: 160px;
+    }
+
+    .single-gl-home-blog-text-btn-date p {
+        margin-left: 20px;
+    }
+
+    .gl-home-contact-left-form form {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .gl-best-opportunities-left-content img {
+        max-width: 70%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        display: block;
+    }
+    .gl-best-opportunities-right-text p {
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .gl-footer-right-content {
+        padding-left: 0;
+        margin-top: 50px;
+    }
+    .gl-footer-right-phone-email-field {
+        margin-top: 15px;
+    }
+    .gl-footer-right-content {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .gl-footer-right-phone-email-content {
+        margin-top: 25px;
+    }
+    .gl-about-us-top-story-image-content img {
+        width: 100%;
+        margin-top: 40px;
+    }
+    .gl-about-us-top-story-area .row {
+        flex-direction: column-reverse;
+    }
+
+
+}
+
+
+
+@media all and (max-width: 767px) {
+    h1 {
+        font-size: 40px;
+    }
+    h3 {
+        font-size: 25px;
+    }
+    .single-gl-home-installation-setup-count h1 {
+        font-size: 35px;
+    }
+    .single-gl-home-hero-bottom-text-content h1 {
+        font-size: 35px;
+    }
+    .single-gl-home-hero-bottom-text-content {
+        padding: 25px 20px;
+    }
+    .gl-home-hero-bottom-text-content {
+        right: 15px;
+        bottom: 15px;
+    }
+    .gl-benefits-left-heading-text p {
+        margin-bottom: 25px;
+    }
+    .gl-home-installation-setup-video-content iframe {
+        height: 425px;
+    }
+
+
+
+}
+
+
+
+@media all and (max-width: 575px) {
+    h1 {
+        font-size: 34px;
+    }
+    p,.gl-benefits-left-list-item li,.testimonials-heading p,.single-gl-technical-specification-text p,.gl-about-us-top-story-image-content p {
+        font-size: 18px;
+    }
+    .gl-home-hero-area {
+        padding-top: 85px;
+    }
+    .gl-testimonials-case-studies-area {
+        padding-bottom: 70px;
+    }
+    .benefits-and-features-area {
+        padding: 40px 0 70px;
+    }
+    .gl-how-it-works-area, .gl-purchase-pricing-area, .gl-about-us-area, .gl-home-contact-area {
+        padding: 70px 0;
+    }
+
+    .mobile-menu-icon {
+        position: relative;
+        right: 0;
+    }
+    .gl-purchase-pricing-heading p {
+        margin-top: 15px;
+    }
+
+    .gl-header-right-btn.gl-similar-btn {
+        display: none;
+    }
+    .gl-testimonials-slider-content .carousel-item h3, .single-gl-testimonials-case-studies-slider-text h3 {
+        font-size: 20px;
+    }
+    .single-gl-testimonials-case-studies-slider-text {
+        padding: 20px;
+    }
+    .gl-technical-specification-content .row:nth-child(even) {
+        margin: 50px 0;
+    }
+    .gl-purchase-pricing-content {
+        margin: 50px 0;
+    }
+    .gl-home-installation-setup-count {
+        flex-wrap: wrap;
+    }
+    .single-gl-home-installation-setup-count {
+        max-width: 100%;
+        flex: 0 0 50%;
+        margin-bottom: 25px;
+    }
+    .single-gl-home-installation-setup-count:last-child {
+        margin-bottom: 0;
+    }
+    .gl-about-us-area .gl-purchase-pricing-heading {
+        margin-bottom: 40px;
+    }
+    .single-gl-footer-left-link-content {
+        flex: 0 0 50%;
+        margin-top: 30px;
+    }
+    .gl-footer-heading h1 {
+        margin-bottom: 15px;
+    }
+    .gl-footer-right-content {
+        margin-top: 30px;
+    }
+    .gl-footer-copywrite-content {
+        flex-direction: column-reverse;
+    }
+    .gl-footer-copywrite-content p {
+        margin-top: 20px;
+    }
+    .gl-footer-right-phone-email-field form input {
+        font-size: 25px;
+    }
+    .gl-main-footer-content {
+        padding: 20px 0 30px;
+    }
+    .single-gl-home-hero-bottom-text-content h1 {
+        font-size: 30px;
+    }
+    .single-gl-home-hero-bottom-text-content h5 {
+        font-size: 16px;
+    }
+    .single-gl-home-hero-bottom-text-content {
+        padding: 20px 15px;
+    }
+    .single-gl-home-hero-bottom-text-content h1 {
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+    .gl-home-hero-top-content p {
+        margin-bottom: 30px;
+    }
+    .gl-home-hero-top-content {
+        margin-bottom: 190px;
+    }
+    .single-gl-key-features-content:first-child {
+        margin-top: 0;
+    }
+    .gl-home-installation-setup-video-content iframe {
+        height: 330px;
+    }
+    .single-gl-purchase-pricing-bottom p {
+        font-size: 22px;
+    }
+    .gl-header-menu>ul {
+        top: 70px;
+    }
+    .gl-home-contact-left-form form input, .gl-home-contact-left-form form textarea, .gl-home-contact-left-full-field select {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+
+}
+
+
+@media all and (max-width: 450px) {
+    h3 {
+        font-size: 22px;
+    }
+    .gl-home-contact-left-half-field  input {
+        flex: 0 0 100%;
+    }
+    .gl-home-contact-left-half-field {
+        flex-wrap: wrap;
+    }
+    .gl-home-contact-left-form form textarea {
+        resize: none;
+        height: 40px;
+    }
+    .single-gl-purchase-pricing-top-content h1 {
+        font-size: 40px;
+    }
+    .single-gl-testimonials-case-studies-slider-profile-details h4 {
+        font-size: 18px;
+    }
+    .gl-home-hero-area {
+        padding-top: 75px;
+    }
+    .gl-testimonials-case-studies-area {
+        padding-bottom: 50px;
+    }
+    .benefits-and-features-area {
+        padding: 30px 0 50px;
+    }
+    .gl-how-it-works-area, .gl-purchase-pricing-area, .gl-about-us-area, .gl-home-contact-area {
+        padding: 50px 0;
+    }
+    p, .gl-benefits-left-list-item li, .testimonials-heading p, .single-gl-technical-specification-text p, .gl-about-us-top-story-image-content p {
+        font-size: 16px;
+    }
+    .gl-benefits-left-list-item li span {
+        margin-right: 7px;
+    }
+    .single-gl-home-hero-bottom-text-content {
+        padding: 14px 10px;
+    }
+    .single-gl-home-hero-bottom-text-content h1 {
+        font-size: 28px;
+    }
+    .single-gl-key-features-content {
+        flex: 0 0 100%;
+    }
+    .gl-similar-btn a, .gl-similar-btn button {
+        font-size: 15px;
+    }
+    .single-gl-purchase-pricing-content {
+        padding: 20px;
+    }
+    .single-gl-purchase-pricing-top-content {
+        padding: 30px 20px;
+    }
+    .gl-similar-btn a, .gl-similar-btn button {
+        padding: 10px 15px;
+    }
+    .single-gl-purchase-pricing-bottom p {
+        font-size: 20px;
+    }
+    .single-gl-purchase-pricing-bottom img {
+        height: 30px;
+    }
+    .single-gl-technical-specification-text p {
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    .gl-footer-right-phone-email-content {
+        flex-direction: column;
+    }
+    .gl-footer-right-phone-email-field form input {
+        font-size: 22px;
+    }
+    .gl-footer-right-phone-email-field form button svg {
+        width: 30px;
+    }
+    .gl-best-opportunities-left-content img {
+        max-width: 100%;
+    }
+
+
+}
