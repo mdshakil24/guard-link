@@ -40,13 +40,15 @@
     .gl-key-features-heading {
         padding-bottom: 40px;
     }
-
+    .gl-home-hero-bottom-text-content {
+        top: -95%;
+    }
     .single-gl-home-hero-bottom-text-content h1 {
-        font-size: 70px;
+        font-size: 60px;
     }
 
     .single-gl-home-hero-bottom-text-content {
-        padding: 54px 60px;
+        padding: 40px 45px;
     }
 
     .gl-home-hero-top-content {
@@ -116,6 +118,25 @@
         font-size: 20px;
     }
 
+    .gl-home-hero-bottom-text-content {
+        position: relative;
+        top: 0;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
+    }
+    .gl-home-hero-top-content p {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .single-gl-home-hero-bottom-text-content {
+        border-right: 1px solid #FAFAFA;
+        border-bottom: 0;
+    }
+    .gl-home-hero-top-content {
+        width: 100%;
+        margin-bottom: 50px;
+    }
     .single-gl-logistics-evolution-content h1 {
         font-size: 47px;
     }
@@ -186,10 +207,6 @@
         color: #1F2A66;
     }
 
-    .gl-home-hero-top-content {
-        width: 100%;
-        margin-bottom: 150px;
-    }
 
     .single-gl-home-hero-bottom-text-content h1 {
         font-size: 55px;
@@ -368,9 +385,7 @@
     .single-gl-experience-efficient-top-count h1 {
         font-size: 70px;
     }
-    .gl-home-hero-bottom-video-content {
-        height: 450px;
-    }
+
 
 
 }
@@ -425,9 +440,7 @@
         font-size: 18px;
     }
 
-    .gl-home-hero-top-content {
-        margin-bottom: 130px;
-    }
+
 
     .gl-home-hero-top-content p {
         width: 100%;
@@ -640,9 +653,6 @@
     .gl-logistics-evolution-content .row .col-lg-6:last-child .single-gl-logistics-evolution-content {
         margin-top: 65px;
     }
-    .gl-home-hero-bottom-video-content {
-        height: 350px;
-    }
 
 
 }
@@ -674,10 +684,7 @@
         padding: 25px 20px;
     }
 
-    .gl-home-hero-bottom-text-content {
-        right: 15px;
-        bottom: 15px;
-    }
+
 
     .gl-benefits-left-heading-text p {
         margin-bottom: 25px;
@@ -735,9 +742,6 @@
 
     .single-gl-logistics-evolution-content h1 {
         font-size: 40px;
-    }
-    .gl-home-hero-bottom-video-content {
-        height: 275px;
     }
 
 
@@ -900,9 +904,7 @@
         margin-bottom: 30px;
     }
 
-    .gl-home-hero-top-content {
-        margin-bottom: 130px;
-    }
+
 
     .single-gl-key-features-content:first-child {
         margin-top: 0;
@@ -965,9 +967,7 @@
     .single-gl-purchase-pricing-bottom {
         margin-top: 20px;
     }
-    .gl-home-hero-bottom-video-content {
-        height: 235px;
-    }
+
 
 }
 
@@ -1158,9 +1158,10 @@
         margin-top: 50px;
         margin-bottom: 20px;
     }
-    .gl-home-hero-bottom-video-content {
-        height: 165px;
+    .gl-home-hero-bottom-text-content,.gl-home-hero-top-content {
+        margin-bottom: 30px;
     }
+
 
 
 }

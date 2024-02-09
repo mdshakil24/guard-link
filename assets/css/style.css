@@ -376,7 +376,7 @@ p {
 
 .gl-home-hero-top-content {
   width: 70%;
-  margin-bottom: 160px;
+  margin-bottom: 220px;
 }
 
 .gl-home-hero-top-content h1 {
@@ -394,26 +394,24 @@ p {
 .gl-home-hero-bottom-content {
   position: relative;
 }
-.gl-home-hero-bottom-video-content {
-  height: 500px;
-  overflow: hidden;
-}
+
 .gl-home-hero-bottom-video-content video {
   width: 100%;
   height: auto;
+  border-radius: 15px;
 }
 
 .gl-home-hero-bottom-text-content {
   background-color: #FE5D16;
   border-radius: 15px;
   position: absolute;
-  right: 30px;
-  bottom: 30px;
+  right: 0;
+  top: -98%;
   z-index: 1;
 }
 
 .single-gl-home-hero-bottom-text-content {
-  padding: 54px 80px;
+  padding: 45px 75px;
   text-align: center;
   border-bottom: 1px solid #FAFAFA;
 }
@@ -423,7 +421,7 @@ p {
 }
 
 .single-gl-home-hero-bottom-text-content h1 {
-  font-size: 90px;
+  font-size: 80px;
   color: #FAFAFA;
   margin-bottom: 15px;
 }
