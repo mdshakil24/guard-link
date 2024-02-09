@@ -368,6 +368,9 @@
     .single-gl-experience-efficient-top-count h1 {
         font-size: 70px;
     }
+    .gl-home-hero-bottom-video-content {
+        height: 450px;
+    }
 
 
 }
@@ -637,6 +640,9 @@
     .gl-logistics-evolution-content .row .col-lg-6:last-child .single-gl-logistics-evolution-content {
         margin-top: 65px;
     }
+    .gl-home-hero-bottom-video-content {
+        height: 350px;
+    }
 
 
 }
@@ -729,6 +735,9 @@
 
     .single-gl-logistics-evolution-content h1 {
         font-size: 40px;
+    }
+    .gl-home-hero-bottom-video-content {
+        height: 275px;
     }
 
 
@@ -892,7 +901,7 @@
     }
 
     .gl-home-hero-top-content {
-        margin-bottom: 190px;
+        margin-bottom: 130px;
     }
 
     .single-gl-key-features-content:first-child {
@@ -955,6 +964,9 @@
 
     .single-gl-purchase-pricing-bottom {
         margin-top: 20px;
+    }
+    .gl-home-hero-bottom-video-content {
+        height: 235px;
     }
 
 }
@@ -1145,6 +1157,9 @@
     .gl-experience-efficient-top-count {
         margin-top: 50px;
         margin-bottom: 20px;
+    }
+    .gl-home-hero-bottom-video-content {
+        height: 165px;
     }
 
 

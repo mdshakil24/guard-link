@@ -394,8 +394,11 @@ p {
 .gl-home-hero-bottom-content {
   position: relative;
 }
-
-.gl-home-hero-bottom-image-content img {
+.gl-home-hero-bottom-video-content {
+  height: 500px;
+  overflow: hidden;
+}
+.gl-home-hero-bottom-video-content video {
   width: 100%;
   height: auto;
 }
